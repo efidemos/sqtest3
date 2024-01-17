@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sqtest3"
+  description: "Testing SQ integration"
+  annotations:
+    github.com/project-slug: efidemos/sqtest3
+    sonarqube.org/project-key: sqtest3
+spec:
+  type: repository
+  lifecycle: experimental
+  owner: "group:default/cncf"
